@@ -2,7 +2,7 @@ package com.devsuperior.dscommerce.projection;
 
 public interface UserDetailsProjection {
 
-	String getEmail();
+	String getUsermail();
 	String getPassword();
 	Long getRoleId();
 	String getAuthority();
