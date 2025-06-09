@@ -75,9 +75,21 @@ public class Order {
 	public void setStatus(OrderStatus status) {
 		this.status = status;
 	}
+	
+	public Payment getPayment() {
+		return payment;
+	}
+	
+	public void setPayment(Payment payment) {
+		this.payment = payment;
+	}
 
 	public User getClient() {
 		return client;
+	}
+	
+	public Set<OrderItem> getItems() {
+		return items;
 	}
 
 	public void setClient(User client) {
